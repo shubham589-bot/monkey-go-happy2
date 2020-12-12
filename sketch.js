@@ -119,7 +119,7 @@ function obstacles()
   if(frameCount % 300 == 0)
   {
     obstacle = createSprite(width,height-50)
-    obstacle.velocityX = -(4+score/4)
+    obstacle.velocityX = -(8+score/4)
     obstacle.addImage(obstaceImage)
     obstacle.scale = 0.1
     obstacle.lifetime = 400
